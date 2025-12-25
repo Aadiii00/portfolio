@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import Scene3D from "@/components/three/Scene3D";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
+  { icon: Github, href: "https://github.com/Aadiii00", label: "GitHub" },
   { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
 ];
