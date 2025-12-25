@@ -21,7 +21,7 @@ const projects = [
     id: 2,
     title: 'ShopVerse',
     description: 'A next-generation e-commerce platform with modern UI, seamless shopping experience, and advanced product management.',
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&auto=format&fit=crop&q=60',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=60',
     tags: ['Next.js', 'TypeScript', 'E-commerce', 'Vercel'],
     category: 'Full-Stack',
     github: 'https://github.com/Aadiii00/shopverse-next-gen-shop',
