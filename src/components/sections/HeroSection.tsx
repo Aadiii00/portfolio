@@ -1,12 +1,12 @@
-import { motion } from 'framer-motion';
-import { ArrowDown, Github, Linkedin, Twitter } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import Scene3D from '@/components/three/Scene3D';
+import { motion } from "framer-motion";
+import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Scene3D from "@/components/three/Scene3D";
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+  { icon: Github, href: "https://github.com", label: "GitHub" },
+  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
 ];
 
 export default function HeroSection() {
@@ -39,10 +39,11 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 leading-tight"
           >
-            Hi, I'm{' '}
-            <span className="gradient-text">Aditya B P</span>
+            Hi, I'm <span className="gradient-text">Aditya B P</span>
             <br />
-            <span className="text-muted-foreground text-2xl sm:text-3xl md:text-4xl">Aspiring Cloud Security & Cyber Security Engineer</span>
+            <span className="text-muted-foreground text-2xl sm:text-3xl md:text-4xl">
+              Cloud Security & Cyber Security Enthusiast
+            </span>
           </motion.h1>
 
           <motion.p
@@ -51,8 +52,8 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto"
           >
-            I craft exceptional digital experiences with modern technologies.
-            Passionate about clean code, stunning UI, and pushing the boundaries of what's possible.
+            I craft exceptional digital experiences with modern technologies. Passionate about clean code, stunning UI,
+            and pushing the boundaries of what's possible.
           </motion.p>
 
           <motion.div
