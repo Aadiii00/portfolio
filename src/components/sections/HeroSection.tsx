@@ -42,7 +42,7 @@ export default function HeroSection() {
             Hi, I'm{' '}
             <span className="gradient-text">Aditya B P</span>
             <br />
-            <span className="text-muted-foreground">Full-Stack Developer</span>
+            <span className="text-muted-foreground text-2xl sm:text-3xl md:text-4xl">Aspiring Cloud Security & Cyber Security Engineer</span>
           </motion.h1>
 
           <motion.p

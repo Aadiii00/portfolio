@@ -48,8 +48,7 @@ export default function AboutSection() {
             Turning Ideas Into <span className="gradient-text">Reality</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            I'm a passionate full-stack developer building exceptional digital experiences for startups and enterprises
-            alike.
+            I'm an aspiring Cloud Security & Cyber Security Engineer passionate about protecting digital infrastructure and building secure systems.
           </p>
         </motion.div>
 
