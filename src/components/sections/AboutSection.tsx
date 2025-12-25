@@ -1,34 +1,34 @@
-import { motion } from 'framer-motion';
-import { useInView } from 'framer-motion';
-import { useRef } from 'react';
-import { Code2, Palette, Rocket, Zap } from 'lucide-react';
+import { motion } from "framer-motion";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
+import { Code2, Palette, Rocket, Zap } from "lucide-react";
 
 const highlights = [
   {
     icon: Code2,
-    title: 'Clean Code',
-    description: 'Writing maintainable, scalable, and well-documented code is my passion.',
+    title: "Clean Code",
+    description: "Writing maintainable, scalable, and well-documented code is my passion.",
   },
   {
     icon: Palette,
-    title: 'UI/UX Design',
-    description: 'Creating beautiful, intuitive interfaces that users love to interact with.',
+    title: "UI/UX Design",
+    description: "Creating beautiful, intuitive interfaces that users love to interact with.",
   },
   {
     icon: Rocket,
-    title: 'Performance',
-    description: 'Optimizing every aspect for lightning-fast load times and smooth interactions.',
+    title: "Performance",
+    description: "Optimizing every aspect for lightning-fast load times and smooth interactions.",
   },
   {
     icon: Zap,
-    title: 'Innovation',
-    description: 'Always exploring new technologies and pushing creative boundaries.',
+    title: "Innovation",
+    description: "Always exploring new technologies and pushing creative boundaries.",
   },
 ];
 
 export default function AboutSection() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
     <section id="about" className="py-32 relative overflow-hidden">
@@ -45,12 +45,11 @@ export default function AboutSection() {
         >
           <span className="text-primary font-mono text-sm mb-4 block">About Me</span>
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Turning Ideas Into{' '}
-            <span className="gradient-text">Reality</span>
+            Turning Ideas Into <span className="gradient-text">Reality</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            I'm a passionate full-stack developer with 5+ years of experience building
-            exceptional digital experiences for startups and enterprises alike.
+            I'm a passionate full-stack developer building exceptional digital experiences for startups and enterprises
+            alike.
           </p>
         </motion.div>
 
@@ -66,9 +65,9 @@ export default function AboutSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-neon-cyan/5 to-neon-purple/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <h3 className="text-xl font-semibold mb-4 relative">My Journey</h3>
               <p className="text-muted-foreground relative leading-relaxed">
-                Started coding at 15, I fell in love with the power of creating things from nothing.
-                From building my first website to architecting enterprise-scale applications,
-                every project has been a new adventure in learning and growth.
+                Started coding at 15, I fell in love with the power of creating things from nothing. From building my
+                first website to architecting enterprise-scale applications, every project has been a new adventure in
+                learning and growth.
               </p>
             </div>
 
@@ -76,9 +75,8 @@ export default function AboutSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-neon-purple/5 to-neon-cyan/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <h3 className="text-xl font-semibold mb-4 relative">My Philosophy</h3>
               <p className="text-muted-foreground relative leading-relaxed">
-                I believe great software is invisible—it just works. My approach combines
-                technical excellence with human-centered design, ensuring every product
-                I build delights users while solving real problems.
+                I believe great software is invisible—it just works. My approach combines technical excellence with
+                human-centered design, ensuring every product I build delights users while solving real problems.
               </p>
             </div>
           </motion.div>
