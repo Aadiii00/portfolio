@@ -75,7 +75,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between pt-8 border-t border-border">
           <p className="text-muted-foreground text-sm flex items-center gap-1">
-            © {new Date().getFullYear()} Alex Chen. Made with{' '}
+            © {new Date().getFullYear()} Aditya B P. Made with{' '}
             <Heart className="text-destructive inline" size={14} fill="currentColor" /> in SF
           </p>
 
