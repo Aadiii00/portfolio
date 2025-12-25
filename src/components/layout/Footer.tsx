@@ -10,7 +10,7 @@ const footerLinks = {
   ],
   social: [
     { name: 'GitHub', href: 'https://github.com/Aadiii00' },
-    { name: 'LinkedIn', href: 'https://linkedin.com' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/aditya-b-p' },
     { name: 'Twitter', href: 'https://twitter.com' },
   ],
 };
