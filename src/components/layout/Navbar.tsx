@@ -35,11 +35,12 @@ export default function Navbar() {
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <motion.a
           href="#home"
-          className="text-2xl font-bold gradient-text"
+          className="text-2xl font-bold tracking-tight"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          {'<Dev />'}
+          <span className="gradient-text">Secure</span>
+          <span className="text-foreground">Ops</span>
         </motion.a>
 
         {/* Desktop Navigation */}

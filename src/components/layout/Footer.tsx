@@ -26,11 +26,12 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <a href="#home" className="text-2xl font-bold gradient-text inline-block mb-4">
-              {'<Dev />'}
+            <a href="#home" className="text-2xl font-bold tracking-tight inline-block mb-4">
+              <span className="gradient-text">Secure</span>
+              <span className="text-foreground">Ops</span>
             </a>
             <p className="text-muted-foreground text-sm max-w-xs">
-              Building exceptional digital experiences with modern technologies and creative solutions.
+              Securing digital infrastructure and building resilient systems with cutting-edge security practices.
             </p>
           </div>
 
@@ -75,7 +76,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between pt-8 border-t border-border">
           <p className="text-muted-foreground text-sm flex items-center gap-1">
             © {new Date().getFullYear()} Aditya B P. Made with{' '}
-            <Heart className="text-destructive inline" size={14} fill="currentColor" /> in SF
+            <Heart className="text-destructive inline" size={14} fill="currentColor" /> in Karnataka
           </p>
 
           <motion.button
