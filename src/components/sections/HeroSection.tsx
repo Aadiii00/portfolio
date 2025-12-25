@@ -40,7 +40,7 @@ export default function HeroSection() {
             className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 leading-tight"
           >
             Hi, I'm{' '}
-            <span className="gradient-text">Alex Chen</span>
+            <span className="gradient-text">Aditya B P</span>
             <br />
             <span className="text-muted-foreground">Full-Stack Developer</span>
           </motion.h1>
