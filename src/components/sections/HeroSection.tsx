@@ -52,8 +52,8 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto"
           >
-            I craft exceptional digital experiences with modern technologies. Passionate about clean code, stunning UI,
-            and pushing the boundaries of what's possible.
+            Building a strong foundation in cloud security and cyber security with an emphasis on risk management,
+            system hardening, and secure architectures.
           </motion.p>
 
           <motion.div
