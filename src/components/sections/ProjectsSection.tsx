@@ -50,28 +50,6 @@ const projects = [
     demo: 'https://trust-kart.vercel.app/Grocery-react/',
     featured: true,
   },
-  {
-    id: 5,
-    title: 'AI Content Studio',
-    description: 'AI-powered content creation platform with text, image, and video generation capabilities.',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop&q=60',
-    tags: ['React', 'Python', 'OpenAI', 'AWS'],
-    category: 'Full-Stack',
-    github: '#',
-    demo: '#',
-    featured: false,
-  },
-  {
-    id: 6,
-    title: 'TaskMaster UI',
-    description: 'Beautiful and intuitive task management interface with drag-and-drop, keyboard shortcuts, and themes.',
-    image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&auto=format&fit=crop&q=60',
-    tags: ['React', 'Tailwind', 'Framer Motion'],
-    category: 'Frontend',
-    github: '#',
-    demo: '#',
-    featured: false,
-  },
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0]; index: number }) {
