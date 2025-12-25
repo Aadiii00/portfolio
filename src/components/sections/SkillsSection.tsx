@@ -27,7 +27,7 @@ const skillCategories = [
     ],
   },
   {
-    name: 'Tools & Technologies',
+    name: 'Security Tools',
     color: 'neon-blue',
     skills: [
       { name: 'Wireshark', level: 85 },
@@ -36,6 +36,18 @@ const skillCategories = [
       { name: 'Metasploit', level: 75 },
       { name: 'Linux/Kali', level: 90 },
       { name: 'Python Scripting', level: 82 },
+    ],
+  },
+  {
+    name: 'Content Creation',
+    color: 'neon-cyan',
+    skills: [
+      { name: 'YouTube Content', level: 85 },
+      { name: 'Video Editing', level: 80 },
+      { name: 'Affiliate Marketing', level: 78 },
+      { name: 'SEO Optimization', level: 75 },
+      { name: 'Social Media', level: 82 },
+      { name: 'Content Strategy', level: 80 },
     ],
   },
 ];
@@ -118,7 +130,7 @@ export default function SkillsSection() {
         </motion.div>
 
         {/* Skills Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {skillCategories.map((category, catIndex) => (
             <motion.div
               key={category.name}
