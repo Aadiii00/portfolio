@@ -9,10 +9,9 @@ const footerLinks = {
     { name: 'Projects', href: '#projects' },
   ],
   social: [
-    { name: 'GitHub', href: 'https://github.com' },
+    { name: 'GitHub', href: 'https://github.com/Aadiii00' },
     { name: 'LinkedIn', href: 'https://linkedin.com' },
     { name: 'Twitter', href: 'https://twitter.com' },
-    { name: 'Dribbble', href: 'https://dribbble.com' },
   ],
 };
 
