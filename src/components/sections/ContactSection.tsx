@@ -8,19 +8,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'hello@alexchen.dev',
-    href: 'mailto:hello@alexchen.dev',
+    value: 'adityapammannavaryt@gmail.com',
+    href: 'mailto:adityapammannavaryt@gmail.com',
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+1 (555) 123-4567',
-    href: 'tel:+15551234567',
+    value: '+91 7483147208',
+    href: 'tel:+917483147208',
   },
   {
     icon: MapPin,
     label: 'Location',
-    value: 'San Francisco, CA',
+    value: 'Shedbal, Karnataka',
     href: '#',
   },
 ];
