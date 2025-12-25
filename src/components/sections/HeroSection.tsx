@@ -5,7 +5,7 @@ import Scene3D from "@/components/three/Scene3D";
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/Aadiii00", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/aditya-b-p", label: "LinkedIn" },
   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
 ];
 
