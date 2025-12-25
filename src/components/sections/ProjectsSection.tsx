@@ -8,13 +8,13 @@ const categories = ['All', 'Frontend', 'Full-Stack', 'Mobile'];
 const projects = [
   {
     id: 1,
-    title: 'FinanceFlow Pro',
-    description: 'A comprehensive financial management platform with real-time analytics, budgeting tools, and AI-powered insights.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60',
-    tags: ['React', 'Node.js', 'PostgreSQL', 'AI'],
+    title: 'InnovAlte-AI',
+    description: 'An AI-powered innovation platform that helps generate and refine creative ideas using advanced machine learning.',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop&q=60',
+    tags: ['React', 'AI', 'TypeScript', 'Vercel'],
     category: 'Full-Stack',
-    github: '#',
-    demo: '#',
+    github: 'https://github.com/Aadiii00/innovAlte-AI',
+    demo: 'https://idea-engine-pro.vercel.app/',
     featured: true,
   },
   {
